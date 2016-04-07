@@ -1,5 +1,8 @@
-sudo apt install maven ipython-notebook openjdk-7-jdk
+# Credits Marek Bardoński
+# All rights reserved 2016
+# Setup time on T2-medium : l7 minutes
 sudo apt update
+sudo apt install maven ipython-notebook openjdk-7-jdk htop
 wget http://www-us.apache.org/dist/spark/spark-1.6.1/spark-1.6.1.tgz
 tar -xvzf spark-1.6.1.tgz
 sudo mv spark-1.6.1 /usr/local/
