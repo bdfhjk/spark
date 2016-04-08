@@ -17,7 +17,7 @@ build/mvn -DskipTests clean package
 # TODO  --install-option="--jobs=6"
 # TODO xargs --max-args=1 --max-procs=4 sudo pip install < requires.txt
 sudo apt install python-dev python-pip libblas-dev liblapack-dev libatlas-base-dev gfortran 
-sudo pip install cython numpy scipy
+sudo pip install cython numpy scipy pandas
 cd ~
 git clone git://github.com/scikit-learn/scikit-learn.git
 cd scikit-learn
